@@ -25,6 +25,6 @@ public class Ejercicio5 {
         System.out.println("Doble: " + doble);
         System.out.println("Triple: " + triple);
         System.out.println("Raiz Cuadrada: " + raiz);
-
+/*prueba*/
     }
 }

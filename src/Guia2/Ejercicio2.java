@@ -12,7 +12,8 @@ import java.util.Scanner;
  * @author jorge
  */
 public class Ejercicio2 {
-/*Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por pantalla.*/
+
+    /*Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por pantalla.*/
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingresa Nombre ");

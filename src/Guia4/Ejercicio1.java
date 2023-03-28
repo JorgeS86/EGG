@@ -20,7 +20,7 @@ en el main */
         System.out.println("Ingrese 2 nros a operar: ");
         int num1 = leer.nextInt();
         int num2 = leer.nextInt();
-        
+
         System.out.println("MENU");
         System.out.println("1: Sumar");
         System.out.println("2: Restar");
@@ -29,7 +29,7 @@ en el main */
         System.out.println("");
         System.out.println("Ingrese Opción deseada: ");
         int opcion = leer.nextInt();
-do {
+
         switch (opcion) {
             case 1:
                 int suma = suma(num1, num2);
@@ -50,7 +50,6 @@ do {
             default:
                 System.out.println("La opción ingresada no es válida");
         }
-        } while (opcion!=5);
     }
 
     public static int suma(int num1, int num2) {

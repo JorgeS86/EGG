@@ -18,6 +18,7 @@ imprima los datos de las personas ingresadas por teclado e indique si
 son mayores o menores de edad. Después de cada persona, el programa
 debe preguntarle al usuario si quiere seguir mostrando personas y frenar
 cuando el usuario ingrese la palabra “No”.*/
+    
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese la cantidad total de personas: ");
